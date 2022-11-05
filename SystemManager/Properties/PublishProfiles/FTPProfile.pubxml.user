@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj1aqJUVoVkugDf7Qk7KrowAAAAACAAAAAAAQZgAAAAEAACAAAACMEh1yaXyZhjG7aRNvaHSE2GvocD4LZPnj1TPhs3vb3AAAAAAOgAAAAAIAACAAAAC1jBLH3gbUdd3LML4qFqjUkBT+exDoYjG8ij94SxngTCAAAAAQs8mjuq3CSZ/xTeCMdWlVJEj/cKf4MLyLcBL9phhhd0AAAAAWNB+T7YriKzb7lsdM8aGObOZKVqU643pAWJRXeth201Yc7p4KRC4WSHJTgz/wcvzvvEldvcu47tKGm0Ud0y+c</EncryptedPassword>
+    <_PublishTargetUrl>ftp://win5048.site4now.net/SystemManager</_PublishTargetUrl>
+    <History>True|2022-09-28T10:56:17.5341219Z;True|2022-08-30T12:59:06.6699174-05:00;True|2022-08-03T22:07:28.0589457-05:00;True|2022-07-26T21:57:21.0590593-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>01/21/2020 11:59:16</publishTime>
+    </File>
+    <File Include="BasicTemplateForm.aspx">
+      <publishTime>02/07/2020 11:50:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>01/21/2020 11:59:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 13:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 08:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 08:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 06:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 08:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 08:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 05:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/14/2015 21:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 15:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 15:19:46</publishTime>
+    </File>
+    <File Include="bin/SystemManager.dll">
+      <publishTime>09/28/2022 05:54:38</publishTime>
+    </File>
+    <File Include="bin/SystemManager.pdb">
+      <publishTime>09/28/2022 05:54:38</publishTime>
+    </File>
+    <File Include="Catalogs/Epic/CapabilityList.ascx">
+      <publishTime>08/27/2022 10:33:23</publishTime>
+    </File>
+    <File Include="Catalogs/Epic/CapabilityMonth.ascx">
+      <publishTime>06/28/2022 19:11:25</publishTime>
+    </File>
+    <File Include="Catalogs/Epic/CapabilityMonthList.ascx">
+      <publishTime>06/28/2022 20:06:18</publishTime>
+    </File>
+    <File Include="Catalogs/Epic/EpicList.aspx">
+      <publishTime>08/27/2022 10:40:42</publishTime>
+    </File>
+    <File Include="Catalogs/Epic/EpicMonth.ascx">
+      <publishTime>06/25/2022 15:28:05</publishTime>
+    </File>
+    <File Include="Catalogs/Epic/EpicMonthList.ascx">
+      <publishTime>06/28/2022 20:10:50</publishTime>
+    </File>
+    <File Include="Catalogs/Feature/FeatureList_Mobile.aspx">
+      <publishTime>09/27/2022 18:11:44</publishTime>
+    </File>
+    <File Include="Catalogs/Feature/FeatureMaint_Mobile.aspx">
+      <publishTime>09/27/2022 18:11:17</publishTime>
+    </File>
+    <File Include="Catalogs/Feature/TestCalendar_Mobile.aspx">
+      <publishTime>08/30/2022 08:40:23</publishTime>
+    </File>
+    <File Include="Catalogs/UseCase/UseCase.aspx">
+      <publishTime>04/17/2022 11:21:57</publishTime>
+    </File>
+    <File Include="Catalogs/UseCase/UsePackage.aspx">
+      <publishTime>08/25/2022 20:16:59</publishTime>
+    </File>
+    <File Include="Catalogs/UseCase/UsePackageCase.ascx">
+      <publishTime>02/07/2020 14:58:13</publishTime>
+    </File>
+    <File Include="Catalogs/UseCase/WebForm1.aspx">
+      <publishTime>02/07/2020 11:02:37</publishTime>
+    </File>
+    <File Include="Images/Back48.png">
+      <publishTime>09/07/2022 15:34:30</publishTime>
+    </File>
+    <File Include="Images/Done48.png">
+      <publishTime>09/07/2022 15:08:42</publishTime>
+    </File>
+    <File Include="Images/IconBack16.png">
+      <publishTime>06/20/2022 17:52:53</publishTime>
+    </File>
+    <File Include="Images/IconBlank16.png">
+      <publishTime>06/29/2022 18:23:49</publishTime>
+    </File>
+    <File Include="Images/IconCancel16.png">
+      <publishTime>01/31/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Images/IconDown16.png">
+      <publishTime>06/20/2022 18:01:36</publishTime>
+    </File>
+    <File Include="Images/IconEdit16.png">
+      <publishTime>02/07/2020 12:14:53</publishTime>
+    </File>
+    <File Include="Images/IconNext16.png">
+      <publishTime>06/20/2022 17:49:40</publishTime>
+    </File>
+    <File Include="Images/IconOK16.png">
+      <publishTime>01/31/2020 14:11:34</publishTime>
+    </File>
+    <File Include="Images/IconRemove16.png">
+      <publishTime>05/30/2022 19:26:46</publishTime>
+    </File>
+    <File Include="Images/IconUp16.png">
+      <publishTime>06/20/2022 18:00:25</publishTime>
+    </File>
+    <File Include="Images/New48.png">
+      <publishTime>09/10/2022 19:44:51</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/21/2020 11:59:17</publishTime>
+    </File>
+    <File Include="Pages/WebForm3.aspx">
+      <publishTime>09/27/2022 16:42:56</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>01/21/2020 11:59:17</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>01/21/2020 11:59:17</publishTime>
+    </File>
+    <File Include="scripts/FixDiv.js">
+      <publishTime>02/07/2020 11:18:58</publishTime>
+    </File>
+    <File Include="Styles/FixDiv.css">
+      <publishTime>09/15/2022 18:33:50</publishTime>
+    </File>
+    <File Include="Styles/PageMobile.css">
+      <publishTime>09/28/2022 05:54:23</publishTime>
+    </File>
+    <File Include="Styles/PageMobile2.css">
+      <publishTime>09/25/2022 11:18:27</publishTime>
+    </File>
+    <File Include="Templates/TemplateList.aspx">
+      <publishTime>03/08/2022 16:52:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/26/2022 21:54:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

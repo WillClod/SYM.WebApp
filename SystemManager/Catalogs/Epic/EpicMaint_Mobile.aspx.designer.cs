@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SystemManager.Catalogs.UseCase
+namespace SystemManager.Catalogs.Epic
 {
 
 
-    public partial class UseCase
+    public partial class EpicMaint_Mobile
     {
 
         /// <summary>
@@ -24,88 +24,70 @@ namespace SystemManager.Catalogs.UseCase
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control hdnUseCaseId.
+        /// Control hdnCompId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField hdnUseCaseId;
+        protected global::System.Web.UI.WebControls.HiddenField hdnCompId;
 
         /// <summary>
-        /// Control lblFormTitle.
+        /// Control hdnUserId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFormTitle;
+        protected global::System.Web.UI.WebControls.HiddenField hdnUserId;
 
         /// <summary>
-        /// Control lblName.
+        /// Control hdnEpicId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblName;
+        protected global::System.Web.UI.WebControls.HiddenField hdnEpicId;
 
         /// <summary>
-        /// Control lblType.
+        /// Control txtCode.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblType;
+        protected global::System.Web.UI.WebControls.TextBox txtCode;
 
         /// <summary>
-        /// Control lblDescription.
+        /// Control txtName.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescription;
+        protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// Control cmbFlow.
+        /// Control txtDescr.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbFlow;
+        protected global::System.Web.UI.WebControls.TextBox txtDescr;
 
         /// <summary>
-        /// Control grdStep.
+        /// Control btnSave.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdStep;
+        protected global::System.Web.UI.WebControls.Button btnSave;
 
         /// <summary>
-        /// Control srcUseCase.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUseCase;
-
-        /// <summary>
-        /// Control srcFlow.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcFlow;
-
-        /// <summary>
-        /// Control srcStep.
+        /// Control srcEpic.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.

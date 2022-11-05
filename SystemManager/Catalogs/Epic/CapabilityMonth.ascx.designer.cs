@@ -7,155 +7,110 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SystemManager.Catalogs.UseCase
+namespace SystemManager.Catalogs.Epic
 {
 
 
-    public partial class UsePackage
+    public partial class CapabilityMonth
     {
 
         /// <summary>
-        /// Control form1.
+        /// Control hdnCompId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.HiddenField hdnCompId;
 
         /// <summary>
-        /// Control lblSystem.
+        /// Control hdnCapabilityId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSystem;
+        protected global::System.Web.UI.WebControls.HiddenField hdnCapabilityId;
 
         /// <summary>
-        /// Control cmbSystem.
+        /// Control srcCapabilityStartDatePriorMonthUpd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbSystem;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcCapabilityStartDatePriorMonthUpd;
 
         /// <summary>
-        /// Control lblApplication.
+        /// Control srcCapabilityStartDateNextMonthUpd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblApplication;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcCapabilityStartDateNextMonthUpd;
 
         /// <summary>
-        /// Control cmbApplication.
+        /// Control srcCapabilityEndDatePriorMonthUpd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbApplication;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcCapabilityEndDatePriorMonthUpd;
 
         /// <summary>
-        /// Control lblUseCaseType.
+        /// Control srcCapabilityEndDateNextMonthUpd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUseCaseType;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcCapabilityEndDateNextMonthUpd;
 
         /// <summary>
-        /// Control cmbUseType.
+        /// Control btnBack.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbUseType;
+        protected global::System.Web.UI.WebControls.ImageButton btnBack;
 
         /// <summary>
-        /// Control grdUsePackage.
+        /// Control btnRemoveStart.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdUsePackage;
+        protected global::System.Web.UI.WebControls.ImageButton btnRemoveStart;
 
         /// <summary>
-        /// Control lnkNew.
+        /// Control lblMonthType.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkNew;
+        protected global::System.Web.UI.WebControls.Label lblMonthType;
 
         /// <summary>
-        /// Control srcSystem.
+        /// Control btnRemoveEnd.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcSystem;
+        protected global::System.Web.UI.WebControls.ImageButton btnRemoveEnd;
 
         /// <summary>
-        /// Control srcApplication.
+        /// Control btnNext.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcApplication;
-
-        /// <summary>
-        /// Control srcUseType.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUseType;
-
-        /// <summary>
-        /// Control srcUseCase.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUseCase;
-
-        /// <summary>
-        /// Control srcUsePackage.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUsePackage;
-
-        /// <summary>
-        /// Control srcGetApplicationCode.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcGetApplicationCode;
-
-        /// <summary>
-        /// Control srcGetUseTypeCode.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcGetUseTypeCode;
+        protected global::System.Web.UI.WebControls.ImageButton btnNext;
     }
 }

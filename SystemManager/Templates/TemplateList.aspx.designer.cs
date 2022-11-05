@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SystemManager.Catalogs.UseCase
+namespace SystemManager.Templates
 {
 
 
-    public partial class UseCase
+    public partial class TemplateList
     {
 
         /// <summary>
@@ -31,51 +31,6 @@ namespace SystemManager.Catalogs.UseCase
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnUseCaseId;
-
-        /// <summary>
-        /// Control lblFormTitle.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFormTitle;
-
-        /// <summary>
-        /// Control lblName.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblName;
-
-        /// <summary>
-        /// Control lblType.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblType;
-
-        /// <summary>
-        /// Control lblDescription.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDescription;
-
-        /// <summary>
-        /// Control cmbFlow.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbFlow;
 
         /// <summary>
         /// Control grdStep.
@@ -105,7 +60,7 @@ namespace SystemManager.Catalogs.UseCase
         protected global::System.Web.UI.WebControls.SqlDataSource srcFlow;
 
         /// <summary>
-        /// Control srcStep.
+        /// Control srcEpic.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.

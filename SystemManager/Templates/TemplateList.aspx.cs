@@ -6,15 +6,17 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 
-namespace SystemManager.Catalogs.UseCase
+namespace SystemManager.Templates
 {
-    public partial class UseCase : System.Web.UI.Page
+    public partial class TemplateList: System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             // On Create page.
             if (!IsPostBack)
             {
+
+                /*
                 // Get Use Case id;
                 if (Request.QueryString["UseCaseId"] != null)
                 {
@@ -37,8 +39,13 @@ namespace SystemManager.Catalogs.UseCase
                 cmbFlow.DataBind();
 
                 // Fill Grid.
-                srcEpic.SelectParameters["FlowId"].DefaultValue = cmbFlow.SelectedValue;
+                srcStep.SelectParameters["FlowId"].DefaultValue = cmbFlow.SelectedValue;
                 grdStep.DataBind();
+                */
+
+                // Frozzen grid view.
+                // grdStep.Columns[0] = true;
+
 
             }
 

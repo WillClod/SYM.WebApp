@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SystemManager.Catalogs.UseCase
+namespace SystemManager.Catalogs.Feature
 {
 
 
-    public partial class UsePackage
+    public partial class Feature_Phone
     {
 
         /// <summary>
@@ -24,138 +24,147 @@ namespace SystemManager.Catalogs.UseCase
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control lblSystem.
+        /// Control hdnCompId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSystem;
+        protected global::System.Web.UI.WebControls.HiddenField hdnCompId;
 
         /// <summary>
-        /// Control cmbSystem.
+        /// Control hdnUserId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbSystem;
+        protected global::System.Web.UI.WebControls.HiddenField hdnUserId;
 
         /// <summary>
-        /// Control lblApplication.
+        /// Control hdnEpicId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblApplication;
+        protected global::System.Web.UI.WebControls.HiddenField hdnEpicId;
 
         /// <summary>
-        /// Control cmbApplication.
+        /// Control hdnCapabilityId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbApplication;
+        protected global::System.Web.UI.WebControls.HiddenField hdnCapabilityId;
 
         /// <summary>
-        /// Control lblUseCaseType.
+        /// Control hdnFeatureId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUseCaseType;
+        protected global::System.Web.UI.WebControls.HiddenField hdnFeatureId;
 
         /// <summary>
-        /// Control cmbUseType.
+        /// Control srcEpic.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmbUseType;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcEpic;
 
         /// <summary>
-        /// Control grdUsePackage.
+        /// Control srcCapability.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdUsePackage;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcCapability;
 
         /// <summary>
-        /// Control lnkNew.
+        /// Control srcFeatureQuick.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkNew;
+        protected global::System.Web.UI.WebControls.SqlDataSource srcFeatureQuick;
 
         /// <summary>
-        /// Control srcSystem.
+        /// Control btnBack.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcSystem;
+        protected global::System.Web.UI.WebControls.ImageButton btnBack;
 
         /// <summary>
-        /// Control srcApplication.
+        /// Control btnNew.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcApplication;
+        protected global::System.Web.UI.WebControls.ImageButton btnNew;
 
         /// <summary>
-        /// Control srcUseType.
+        /// Control lblTitle.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUseType;
+        protected global::System.Web.UI.WebControls.Label lblTitle;
 
         /// <summary>
-        /// Control srcUseCase.
+        /// Control lblEpic.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUseCase;
+        protected global::System.Web.UI.WebControls.Label lblEpic;
 
         /// <summary>
-        /// Control srcUsePackage.
+        /// Control cmbEpic.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcUsePackage;
+        protected global::System.Web.UI.WebControls.DropDownList cmbEpic;
 
         /// <summary>
-        /// Control srcGetApplicationCode.
+        /// Control lblCapability.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcGetApplicationCode;
+        protected global::System.Web.UI.WebControls.Label lblCapability;
 
         /// <summary>
-        /// Control srcGetUseTypeCode.
+        /// Control cmbCapability.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource srcGetUseTypeCode;
+        protected global::System.Web.UI.WebControls.DropDownList cmbCapability;
+
+        /// <summary>
+        /// Control gvwMain.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvwMain;
     }
 }

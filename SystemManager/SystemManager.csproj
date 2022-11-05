@@ -96,15 +96,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BasicTemplateForm.aspx" />
+    <Content Include="Catalogs\Epic\CapabilityList.ascx" />
+    <Content Include="Catalogs\Epic\CapabilityMonth.ascx" />
+    <Content Include="Catalogs\Epic\CapabilityMonthList.ascx" />
+    <Content Include="Catalogs\Epic\EpicList.aspx" />
+    <Content Include="Catalogs\Epic\EpicMonth.ascx" />
+    <Content Include="Catalogs\Epic\EpicMonthList.ascx" />
+    <Content Include="Catalogs\Feature\FeatureList_Mobile.aspx" />
+    <Content Include="Catalogs\Feature\FeatureMaint_Mobile.aspx" />
+    <Content Include="Catalogs\Feature\Feature_Phone.aspx" />
+    <Content Include="Catalogs\Feature\TestCalendar_Mobile.aspx" />
     <Content Include="Catalogs\UseCase\UseCase.aspx" />
     <Content Include="Catalogs\UseCase\UsePackageCase.ascx" />
+    <Content Include="Images\Back48.png" />
+    <Content Include="Images\Done48.png" />
+    <Content Include="Images\IconBack16.png" />
+    <Content Include="Images\IconBlank16.png" />
     <Content Include="Images\IconCancel16.png" />
+    <Content Include="Images\IconDown16.png" />
     <Content Include="Images\IconEdit16.png" />
+    <Content Include="Images\IconNext16.png" />
     <Content Include="Images\IconOK16.png" />
+    <Content Include="Images\IconRemove16.png" />
+    <Content Include="Images\IconUp16.png" />
+    <Content Include="Images\New48.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -115,10 +135,14 @@
   <ItemGroup>
     <Content Include="Catalogs\UseCase\UsePackage.aspx" />
     <Content Include="Catalogs\UseCase\WebForm1.aspx" />
+    <Content Include="Pages\WebForm3.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\FixDiv.js" />
     <Content Include="Styles\FixDiv.css" />
+    <Content Include="Styles\PageMobile.css" />
+    <Content Include="Styles\PageMobile2.css" />
+    <Content Include="Templates\TemplateList.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +152,75 @@
     </Compile>
     <Compile Include="BasicTemplateForm.aspx.designer.cs">
       <DependentUpon>BasicTemplateForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\CapabilityList.ascx.cs">
+      <DependentUpon>CapabilityList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Epic\CapabilityList.ascx.designer.cs">
+      <DependentUpon>CapabilityList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\CapabilityMonth.ascx.cs">
+      <DependentUpon>CapabilityMonth.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Epic\CapabilityMonth.ascx.designer.cs">
+      <DependentUpon>CapabilityMonth.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\CapabilityMonthList.ascx.cs">
+      <DependentUpon>CapabilityMonthList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Epic\CapabilityMonthList.ascx.designer.cs">
+      <DependentUpon>CapabilityMonthList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicList.aspx.cs">
+      <DependentUpon>EpicList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicList.aspx.designer.cs">
+      <DependentUpon>EpicList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicMonth.ascx.cs">
+      <DependentUpon>EpicMonth.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicMonth.ascx.designer.cs">
+      <DependentUpon>EpicMonth.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicMonthList.ascx.cs">
+      <DependentUpon>EpicMonthList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicMonthList.ascx.designer.cs">
+      <DependentUpon>EpicMonthList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Feature\FeatureList_Mobile.aspx.cs">
+      <DependentUpon>FeatureList_Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Feature\FeatureList_Mobile.aspx.designer.cs">
+      <DependentUpon>FeatureList_Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Feature\FeatureMaint_Mobile.aspx.cs">
+      <DependentUpon>FeatureMaint_Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Feature\FeatureMaint_Mobile.aspx.designer.cs">
+      <DependentUpon>FeatureMaint_Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Feature\Feature_Phone.aspx.cs">
+      <DependentUpon>Feature_Phone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Feature\Feature_Phone.aspx.designer.cs">
+      <DependentUpon>Feature_Phone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Feature\TestCalendar_Mobile.aspx.cs">
+      <DependentUpon>TestCalendar_Mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogs\Feature\TestCalendar_Mobile.aspx.designer.cs">
+      <DependentUpon>TestCalendar_Mobile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Catalogs\UseCase\UseCase.aspx.cs">
       <DependentUpon>UseCase.aspx</DependentUpon>
@@ -157,7 +250,26 @@
     <Compile Include="Catalogs\UseCase\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates\TemplateList.aspx.cs">
+      <DependentUpon>TemplateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\TemplateList.aspx.designer.cs">
+      <DependentUpon>TemplateList.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Catalogs\Capability\" />
+    <Folder Include="Catalogs\Story\" />
+    <Folder Include="Catalogs\Task\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
