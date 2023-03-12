@@ -100,6 +100,7 @@
     <Content Include="Catalogs\Epic\CapabilityMonth.ascx" />
     <Content Include="Catalogs\Epic\CapabilityMonthList.ascx" />
     <Content Include="Catalogs\Epic\EpicList.aspx" />
+    <Content Include="Catalogs\Epic\EpicList_Mobile.aspx" />
     <Content Include="Catalogs\Epic\EpicMonth.ascx" />
     <Content Include="Catalogs\Epic\EpicMonthList.ascx" />
     <Content Include="Catalogs\Feature\FeatureList_Mobile.aspx" />
@@ -180,6 +181,12 @@
     </Compile>
     <Compile Include="Catalogs\Epic\EpicList.aspx.designer.cs">
       <DependentUpon>EpicList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicList_Mobile.aspx.cs">
+      <DependentUpon>EpicList_Mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogs\Epic\EpicList_Mobile.aspx.designer.cs">
+      <DependentUpon>EpicList_Mobile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Catalogs\Epic\EpicMonth.ascx.cs">
       <DependentUpon>EpicMonth.ascx</DependentUpon>

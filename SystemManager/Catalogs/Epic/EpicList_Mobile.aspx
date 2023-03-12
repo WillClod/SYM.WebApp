@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FeatureList_Mobile.aspx.cs" Inherits="SystemManager.Catalogs.Feature.FeatureList_Mobile" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EpicList_Mobile.aspx.cs" Inherits="SystemManager.Catalogs.Epic.EpicList_Mobile" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <title>SYM Feature List</title>
+    <title>SYM Epic List</title>
     
     <!-- Mobile layout -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -106,7 +106,7 @@ AND C.IsClose = 0 -- Open">
                </div>
                             
                <div id="divTitle" class="divTitle">
-                   <asp:Label ID="lblTitle" class="lblTitle" runat="server" Text="Features"></asp:Label>
+                   <asp:Label ID="lblTitle" class="lblTitle" runat="server" Text="Epics"></asp:Label>
                </div>
 
         </div>
@@ -114,18 +114,22 @@ AND C.IsClose = 0 -- Open">
             <div id="divFilters" class="divRow" style="margin-right: 10px; margin-left: 10px">
 
                 <div id="divEpic" class ="divRow21">
+                    <!-- 
                     <div>
                         <asp:Label ID="lblEpic" class="lbl" runat="server" Text="Epic" Width="100%"></asp:Label>
                     </div>
+                    -->
                     <div>
                         <asp:DropDownList ID="cmbEpic" class="cmb" runat="server" DataSourceID="srcEpic" DataTextField="Code" DataValueField="Id" OnDataBound="cmbEpic_DataBound" AutoPostBack="True" OnSelectedIndexChanged="cmbEpic_SelectedIndexChanged" Width="100%" ></asp:DropDownList>        
                     </div>
                 </div>
 
                 <div id="divCapability" class="divRow22">
+                    <!--
                     <div>
                         <asp:Label ID="lblCapability" class="lbl" runat="server" Text="Capability" Width="100%"></asp:Label>
                     </div>
+                    -->
                     <div>
                         <asp:DropDownList ID="cmbCapability" class="cmb" runat="server" DataSourceID="srcCapability" DataTextField="Code" DataValueField="Id" OnDataBound="cmbCapability_DataBound" AutoPostBack="True" OnSelectedIndexChanged="cmbCapability_SelectedIndexChanged" Width="100%"></asp:DropDownList>
                     </div>
